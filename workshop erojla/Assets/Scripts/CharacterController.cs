@@ -11,6 +11,7 @@ public class CharacterController : MonoBehaviour
     public LayerMask groundLayer;
     public Transform groundCheker;
     public float radius = 0.005f;
+    public int score = 0;
 
     // Start is called before the first frame update
     void Start()
